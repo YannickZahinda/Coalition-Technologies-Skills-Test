@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-one {
+    background: url('images/lam-top-image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    /* align-items: center; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: underline;
+    color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Poppins', sans-serif;
+}

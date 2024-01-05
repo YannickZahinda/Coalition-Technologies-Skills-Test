@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    background-attachment: fixed;
     /* align-items: center; */
 }
 
@@ -27,4 +28,45 @@ nav a {
     color: #fff;
     font-family: 'Josefin Slab', serif;
     font-family: 'Poppins', sans-serif;
+}
+
+.section-two {
+    background: url('images/lam-middle-image.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    /* align-items: center; */
+}
+
+.section-three {
+    background: url('images/lam-tab-1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+    /* align-items: center; */
+}
+
+.schedule {
+    width: 30%;
+    height: 60%;
+    padding: 40px;
+}
+
+.menu{
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .schedule{
+        width: 70%;
+        height: 50%;
+    }
 }
